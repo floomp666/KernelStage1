@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Редактировать">
+      <UniqueIdentifier>{78EE404B-868A-584D-852B-41AFEFC2D5F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Библиотеки">
+      <UniqueIdentifier>{AEE0770D-A802-5EF3-B5D8-57A52172C525}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HooksCombined.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="Dissector.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="IconManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\compbuilder\CompBuilder.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\ChildManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\ColorPickerManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\PopupManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\TabsManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\managers\WidgetsManager.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\web\web.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_demo.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_draw.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_freetype.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_dx11.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_impl_win32.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_tables.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\imgui\imgui_widgets.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\kiero.cpp">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\buffer.c">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hde\hde32.c">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hde\hde64.c">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\hook.c">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\kiero\minhook\src\trampoline.c">
+      <Filter>Библиотеки</Filter>
+    </ClCompile>
+    <ClCompile Include="maindll.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Редактировать</Filter>
+    </ClCompile>
+    <ClInclude Include="chams.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="custommodel.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="Dissector.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="Getter.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\compbuilder\CompBuilder.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\fonts.h">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\interface_v2.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ChildManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ColorPickerManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\FontManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\ImageManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\LangManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\NotifyManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\PopupManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\SearchManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\StyleManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\TabsManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\managers\WidgetsManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\animations.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftconfig.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftheader.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftmodule.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftoption.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\ftstdlib.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\integer-types.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\mac-support.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\config\public-macros.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\freetype.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftadvanc.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbbox.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbdf.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbitmap.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftbzip2.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcache.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftchapters.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcid.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftcolor.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftdriver.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fterrdef.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fterrors.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftfntfmt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgasp.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftglyph.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgxval.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftgzip.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftimage.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftincrem.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlcdfil.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlist.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlogging.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftlzw.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmac.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmm.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmodapi.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftmoderr.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftotval.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftoutln.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftparams.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftpfr.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftrender.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsizes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsnames.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftstroke.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsynth.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftsystem.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fttrigon.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\fttypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ftwinfnt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\autohint.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\cffotypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\cfftypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\compiler-macros.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftcalc.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftdebug.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftdrv.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftgloadr.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\fthash.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftmemory.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftmmtypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftobjs.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftpsprop.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftrfork.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftserv.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftstream.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\fttrace.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\ftvalid.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\psaux.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\pshints.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svbdf.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svcfftl.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svcid.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svfntfmt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svgldict.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svgxval.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svkern.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svmetric.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svmm.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svotval.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpfr.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpostnm.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svprop.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpscmap.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svpsinfo.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svsfnt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svttcmap.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svtteng.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svttglyf.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\services\svwinfnt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\sfnt.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\svginterface.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\t1types.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\tttypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\internal\wofftypes.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\otsvg.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\t1tables.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\ttnameid.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\tttables.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\freetype\tttags.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\ft2build.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\nlohmann\json.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\thirdparty\include\nlohmann\json_fwd.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\unicodes.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\web\web.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="IconManager.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_bridge.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imconfig.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_freetype.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_dx11.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_impl_win32.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imgui_internal.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_rectpack.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_textedit.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\imgui\imstb_truetype.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\kiero.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\include\MinHook.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\buffer.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\hde32.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\hde64.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\pstdint.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\table32.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\hde\table64.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\kiero\minhook\src\trampoline.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sounds\click_sound.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\sounds\fatality_sound.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulator.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="server_side.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="System.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_render.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityEngine.hpp">
+      <Filter>Редактировать</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Библиотеки</Filter>
+    </ClInclude>
+    <Library Include="gui\thirdparty\lib\freetype.lib">
+      <Filter>Библиотеки</Filter>
+    </Library>
+    <Library Include="gui\thirdparty\lib\freetype64.lib">
+      <Filter>Библиотеки</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
