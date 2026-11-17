@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "internal", "project\internal\internal.vcxproj", "{6E5E06AD-4043-4A47-A7BD-937622F8D371}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "project\kernel\bridge.vcxproj", "{651FC915-A6C8-4B91-91B6-4685CD127936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "project\launcher\Launcher.csproj", "{43ADDB1D-EE08-4652-911E-AB989013B996}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E5E06AD-4043-4A47-A7BD-937622F8D371}.Debug|x64.ActiveCfg = Debug|x64
+		{6E5E06AD-4043-4A47-A7BD-937622F8D371}.Debug|x64.Build.0 = Debug|x64
+		{6E5E06AD-4043-4A47-A7BD-937622F8D371}.Release|x64.ActiveCfg = Release|x64
+		{6E5E06AD-4043-4A47-A7BD-937622F8D371}.Release|x64.Build.0 = Release|x64
+		{651FC915-A6C8-4B91-91B6-4685CD127936}.Debug|x64.ActiveCfg = Release|x64
+		{651FC915-A6C8-4B91-91B6-4685CD127936}.Debug|x64.Build.0 = Release|x64
+		{651FC915-A6C8-4B91-91B6-4685CD127936}.Release|x64.ActiveCfg = Release|x64
+		{651FC915-A6C8-4B91-91B6-4685CD127936}.Release|x64.Build.0 = Release|x64
+		{43ADDB1D-EE08-4652-911E-AB989013B996}.Debug|x64.ActiveCfg = Debug|x64
+		{43ADDB1D-EE08-4652-911E-AB989013B996}.Debug|x64.Build.0 = Debug|x64
+		{43ADDB1D-EE08-4652-911E-AB989013B996}.Release|x64.ActiveCfg = Release|x64
+		{43ADDB1D-EE08-4652-911E-AB989013B996}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
